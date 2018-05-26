@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n03_spring_mvc_free_marker/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n04_spring_mvc_form/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n07_spring_data_nosql_mongodb/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n09_spring_batch/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n10_spring_intercepter_aop/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/n11_selenium/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="add .gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/.gitignore" afterPath="$PROJECT_DIR$/admin/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/n01_spring_mvc_basic/.gitignore" afterPath="$PROJECT_DIR$/n01_spring_mvc_basic/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/n02_spring_mvc_apache_tiles/.gitignore" afterPath="$PROJECT_DIR$/n02_spring_mvc_apache_tiles/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/n08_spring_security/.gitignore" afterPath="$PROJECT_DIR$/n08_spring_security/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/n10_spring_intercepter_aop/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,18 +94,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SANGKHIM_HOME/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/SANGKHIM_HOME/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -184,61 +161,6 @@
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n01_spring_mvc_basic" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n02_spring_mvc_apache_tiles" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n03_spring_mvc_free_marker" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n04_spring_mvc_form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n05_spring_data_rdbms_mybatis" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n06_spring_data_rdbms_hibernate" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n07_spring_data_nosql_mongodb" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n08_spring_security" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n09_spring_batch" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="n10_spring_intercepter_aop" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -371,12 +293,20 @@
       <option name="presentableId" value="Default" />
       <updated>1525493896235</updated>
       <workItem from="1525493897623" duration="1432000" />
-      <workItem from="1527329551955" duration="1340000" />
+      <workItem from="1527329551955" duration="1458000" />
     </task>
+    <task id="LOCAL-00001" summary="add .gitignore">
+      <created>1527330916685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527330916685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2772000" />
+    <option name="totallyTimeSpent" value="2890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -415,6 +345,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -541,14 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n10_spring_intercepter_aop/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/n11_selenium/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -565,10 +491,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/n10_spring_intercepter_aop/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
