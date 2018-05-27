@@ -50,7 +50,7 @@
 			<div class="msg">${msg}</div>
 		</c:if>
 
-		<form name='loginForm' action="<c:url value='/security/login_check?targetUrl=${targetUrl}' />" method='POST'>
+		<form name='loginForm' action="<c:url value='/login_check?targetUrl=${targetUrl}' />" method='POST'>
 		<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 		<table>
 			<tr>

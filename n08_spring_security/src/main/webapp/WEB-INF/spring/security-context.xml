@@ -12,21 +12,21 @@
 			<cache-control />
 		</headers>
 
-		<intercept-url pattern="/security/admin/**" access="hasRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')" />
 
-		<form-login login-page="/security/login"
-			login-processing-url="/security/login_check" 
-		    default-target-url="/security/welcome"
-			authentication-failure-url="/security/login?error" 
+		<form-login login-page="/login"
+			login-processing-url="/login_check" 
+		    default-target-url="/welcome"
+			authentication-failure-url="/login?error" 
 			username-parameter="username"
 			password-parameter="password" 
 			authentication-success-handler-ref="customAuthenticationSuccessHandler"
 			/>
 
-		<logout logout-success-url="/security/login?logout" delete-cookies="JSESSIONID" />
+		<logout logout-success-url="/login?logout" delete-cookies="JSESSIONID" />
 		
 		<!-- enable csrf protection -->
-		<!-- <csrf /> -->
+		<csrf /> 
 
 		<remember-me 
 		    token-validity-seconds="1209600"
@@ -40,12 +40,12 @@
 		<authentication-provider>
 			<password-encoder ref="encoder" />
 			<jdbc-user-service data-source-ref="dataSource"
-				users-by-username-query="SELECT username,password, enabled FROM users WHERE username=?"
+				users-by-username-query="SELECT username, password, is_active FROM users WHERE username=?"
 				authorities-by-username-query="SELECT username, role FROM user_roles WHERE username=?  " />
 		</authentication-provider>
 	</authentication-manager>
 
-	<beans:bean id="customAuthenticationSuccessHandler" class="com.sangkhim.spring.security.CustomAuthenticationSuccessHandler"></beans:bean>
+	<beans:bean id="customAuthenticationSuccessHandler" class="com.sangkhim.spring.security.CustomAuthenticationSuccessHandler" />
 	<beans:bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 
 </beans:beans>

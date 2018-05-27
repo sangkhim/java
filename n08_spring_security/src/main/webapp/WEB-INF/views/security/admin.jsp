@@ -19,7 +19,7 @@
 
 	<c:if test="${pageContext.request.userPrincipal.name != null}">
 		<h2>
-			Welcome : <a href="/n08_spring_security/security/admin/update">${pageContext.request.userPrincipal.name}</a> | <a href="javascript:formSubmit()"> Logout</a>
+			Welcome : <a href="<c:url value='/admin/update' />">${pageContext.request.userPrincipal.name}</a> | <a href="javascript:formSubmit()"> Logout</a>
 		</h2>
 	</c:if>
 

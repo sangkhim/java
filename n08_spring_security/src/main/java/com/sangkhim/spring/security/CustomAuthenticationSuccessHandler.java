@@ -13,14 +13,13 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 
 public class CustomAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
 
-    @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException, ServletException {
         Set<String> roles = AuthorityUtils.authorityListToSet(authentication.getAuthorities());
         if (roles.contains("ROLE_ADMIN")){
-            response.sendRedirect(request.getContextPath() + "/security/admin");   
+            response.sendRedirect(request.getContextPath() + "/admin");   
             return;
         }else if (roles.contains("ROLE_USER")){
-            response.sendRedirect(request.getContextPath() + "/security/welcome");   
+            response.sendRedirect(request.getContextPath() + "/welcome");   
             return;
         }
         response.sendRedirect(request.getContextPath() + "/");

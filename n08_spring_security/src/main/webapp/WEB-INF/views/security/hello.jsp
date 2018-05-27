@@ -8,7 +8,7 @@
 
 	<sec:authorize access="hasRole('ROLE_USER')">
 		<!-- For login user -->
-		<c:url value="/j_spring_security_logout" var="logoutUrl" />
+		<c:url value="<c:url value='/j_spring_security_logout' />" var="logoutUrl" />
 		<form action="${logoutUrl}" method="post" id="logoutForm">
 			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 		</form>
@@ -26,7 +26,7 @@
 	</sec:authorize>
 	
 	<h2>
-		Go to <a href="/n08_spring_security/security/admin">admin page</a>!
+		Go to <a href="<c:url value='/admin' />">admin page</a>!
 	</h2>
 		
 </body>

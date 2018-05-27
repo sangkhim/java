@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class SecurityController {
 
-	@RequestMapping(value = { "/", "/security/welcome**" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
 	public ModelAndView defaultPage() {
 
 		ModelAndView model = new ModelAndView();
@@ -26,7 +26,7 @@ public class SecurityController {
 
 	}
 
-	@RequestMapping(value = "/security/admin**", method = RequestMethod.GET)
+	@RequestMapping(value = "/admin**", method = RequestMethod.GET)
 	public ModelAndView adminPage() {
 
 		ModelAndView model = new ModelAndView();
@@ -41,7 +41,7 @@ public class SecurityController {
 	 * If user is logjn via remember me cookie, send login to ask for password again.
 	 * To avoid stolen remember me cookie to update anything
 	 */
-	@RequestMapping(value = "/security/admin/update**", method = RequestMethod.GET)
+	@RequestMapping(value = "/admin/update**", method = RequestMethod.GET)
 	public ModelAndView updatePage(HttpServletRequest request) {
 
 		ModelAndView model = new ModelAndView();
@@ -63,7 +63,7 @@ public class SecurityController {
 	 * both "normal login" and "login for update" shared this form.
 	 * 
 	 */
-	@RequestMapping(value = "/security/login", method = RequestMethod.GET)
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView login(@RequestParam(value = "error", required = false) String error, @RequestParam(value = "logout", required = false) String logout, HttpServletRequest request) {
 
 		ModelAndView model = new ModelAndView();
