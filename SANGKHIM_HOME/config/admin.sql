@@ -34,6 +34,22 @@ CREATE TABLE `persistent_logins` (
   PRIMARY KEY (`series`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+CREATE TABLE oauth_access_token (
+  token_id VARCHAR(256),
+  token BLOB,
+  authentication_id VARCHAR(256) PRIMARY KEY,
+  user_name VARCHAR(256),
+  client_id VARCHAR(256),
+  authentication BLOB,
+  refresh_token VARCHAR(256)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+CREATE TABLE oauth_refresh_token (
+  token_id VARCHAR(256),
+  token BLOB,
+  authentication BLOB
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 CREATE TABLE `products` (
   `product_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(1000) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',

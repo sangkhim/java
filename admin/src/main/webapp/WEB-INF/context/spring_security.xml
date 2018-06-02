@@ -98,20 +98,6 @@
 		
 	</authentication-manager>
 
-	<!-- 
-	<authentication-manager 
-		alias="authenticationManager"
-		xmlns="http://www.springframework.org/schema/security">
-		
-		<authentication-provider>
-			<user-service id="userDetailsService">
-				<user name="admin" password="password" authorities="ROLE_USER" />
-			</user-service>
-		</authentication-provider>
-		
-	</authentication-manager>
-	-->
-
 	<bean 
 		id="clientDetailsUserService"
 		class="org.springframework.security.oauth2.provider.client.ClientDetailsUserDetailsService">
@@ -120,10 +106,14 @@
 		
 	</bean>
 
-	<!-- Token Store -->
+	<!-- Token Store -->	
 	<bean 
 		id="tokenStore"
-		class="org.springframework.security.oauth2.provider.token.store.InMemoryTokenStore" />
+		class="org.springframework.security.oauth2.provider.token.store.JdbcTokenStore">
+		
+		<constructor-arg ref="dataSource" />
+		
+	</bean>
 
 	<bean 
 		id="tokenServices"
@@ -201,7 +191,7 @@
 		<logout logout-success-url="/login?logout" delete-cookies="JSESSIONID" />
 		
 		<!-- enable csrf protection -->
-		<csrf request-matcher-ref="csrfSecurityRequestMatcher"  />
+		<csrf />
 
 		<remember-me 
 		    token-validity-seconds="1209600"
@@ -222,7 +212,6 @@
 		</authentication-provider>
 	</authentication-manager>
 
-	<bean id="csrfSecurityRequestMatcher" class="com.sangkhim.spring.security.CsrfSecurityRequestMatcher" />
 	<bean id="customAuthenticationSuccessHandler" class="com.sangkhim.spring.security.CustomAuthenticationSuccessHandler" />
 	<bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
 

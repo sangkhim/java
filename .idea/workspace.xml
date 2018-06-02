@@ -5,10 +5,11 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/admin/upload/b7f817dd-31c9-44c1-acdb-b25bfcb07400.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/admin/upload/ca8469ea-2f51-4772-971e-18338779f73b.jpg" />
     </list>
-    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="">
+    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="add oauth2 to admin proj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/service/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/service/ProductServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/config/admin.sql" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/config/admin.sql" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" afterPath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" />
+      <change beforePath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-combined-context.xml" afterPath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-combined-context.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +49,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-11" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -210,7 +210,7 @@
       <workItem from="1525493897623" duration="1432000" />
       <workItem from="1527329551955" duration="3779000" />
       <workItem from="1527394271282" duration="1307000" />
-      <workItem from="1527924617514" duration="3369000" />
+      <workItem from="1527924617514" duration="4611000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -268,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527934631011</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add oauth2 to admin proj">
+      <created>1527936823929</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527936823929</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9887000" />
+    <option name="totallyTimeSpent" value="11129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -500,6 +507,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1415">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
