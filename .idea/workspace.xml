@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="a65d2f8f-c8ec-45ac-9759-2d9aed583400" name="not_commit" comment="tmp" />
+    <list id="a65d2f8f-c8ec-45ac-9759-2d9aed583400" name="not_commit" comment="tmp">
+      <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/admin/upload/b7f817dd-31c9-44c1-acdb-b25bfcb07400.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/admin/upload/ca8469ea-2f51-4772-971e-18338779f73b.jpg" />
+    </list>
     <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/controller/DashboardViewController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/controller/ProductRestController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/controller/ProductViewController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductService.class" afterPath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductService.class" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductServiceTest.class" afterPath="$PROJECT_DIR$/admin/bin/com/sangkhim/spring/service/ProductServiceTest.class" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/DashboardViewController.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/view/DashboardViewController.java" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/ProductRestController.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/rest/ProductRestController.java" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/ProductViewController.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/view/ProductViewController.java" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/mapper/ProductMapper.java" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/service/ProductService.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/service/ProductService.java" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/service/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/service/ProductServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/admin/src/test/java/com/sangkhim/spring/service/ProductServiceTest.java" afterPath="$PROJECT_DIR$/admin/src/test/java/com/sangkhim/spring/service/ProductServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/rest/ProductRestController.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/controller/rest/ProductRestController.java" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" afterPath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -218,7 +210,7 @@
       <workItem from="1525493897623" duration="1432000" />
       <workItem from="1527329551955" duration="3779000" />
       <workItem from="1527394271282" duration="1307000" />
-      <workItem from="1527924617514" duration="938000" />
+      <workItem from="1527924617514" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -262,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527924862968</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="skin controller fat model">
+      <created>1527929021196</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527929021196</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7456000" />
+    <option name="totallyTimeSpent" value="9429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -340,7 +339,8 @@
     <MESSAGE value="update security project" />
     <MESSAGE value="tmp" />
     <MESSAGE value="UserAuthSession" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserAuthSession" />
+    <MESSAGE value="skin controller fat model" />
+    <option name="LAST_COMMIT_MESSAGE" value="skin controller fat model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

@@ -28,12 +28,12 @@ public class ProductRestController {
 		return productService.dt(param);
 	}
 	
-	@RequestMapping(value = "/products", method = RequestMethod.GET)
+	@RequestMapping(value = {"/public/products", "/products"}, method = RequestMethod.GET)
 	public ResponseMessage<List<Product>> products() {
 		return productService.products();
 	}
 
-	@RequestMapping(value = "/products/{productId}", method = RequestMethod.GET)
+	@RequestMapping(value = {"/public/products/{productId}", "/products/{productId}"}, method = RequestMethod.GET)
 	public ResponseMessage<Product> product(@PathVariable("productId") int productId) {
 		return productService.product(productId);
 	}
@@ -53,7 +53,7 @@ public class ProductRestController {
 		return productService.delete(productId);
 	}
 	
-	@RequestMapping(value = "/products/{productId}/onlines/{isOnline}", method = RequestMethod.POST)
+	@RequestMapping(value = {"/public/products/{productId}/onlines/{isOnline}", "/products/{productId}/onlines/{isOnline}"}, method = RequestMethod.POST)
 	public ResponseMessage<String> updateIsOnline(@PathVariable("productId") int productId, @PathVariable("isOnline") int isOnline) {
 		return productService.updateIsOnline(productId, isOnline);
 	}
