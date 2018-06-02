@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -66,6 +67,11 @@ public class SecurityOauth2RestController {
     @RequestMapping(value = "/list", method = RequestMethod.GET, headers = "Accept=application/json", produces = {"application/json"})
     @ResponseBody
     public Set getEmployeeList() {
+    	User userAuth = UserAuthSession.getUserAuth();
+		if(userAuth != null) {
+			System.out.println(userAuth.toString());
+		}
+    	
         return Employees;
     }
 
