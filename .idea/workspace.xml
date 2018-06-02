@@ -5,11 +5,13 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/admin/upload/b7f817dd-31c9-44c1-acdb-b25bfcb07400.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/admin/upload/ca8469ea-2f51-4772-971e-18338779f73b.jpg" />
     </list>
-    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="add oauth2 to admin proj">
+    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/config/admin.sql" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/config/admin.sql" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" afterPath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" />
-      <change beforePath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-combined-context.xml" afterPath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-combined-context.xml" />
+      <change beforePath="$PROJECT_DIR$/n08_spring_security/src/main/java/com/sangkhim/spring/security/SecurityOauth2RestController.java" afterPath="$PROJECT_DIR$/n08_spring_security/src/main/java/com/sangkhim/spring/security/SecurityOauth2RestController.java" />
+      <change beforePath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-combined-context.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-oauth2-context.xml" afterPath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/spring/security-oauth2-context.xml" />
+      <change beforePath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/n08_spring_security/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -210,7 +212,7 @@
       <workItem from="1525493897623" duration="1432000" />
       <workItem from="1527329551955" duration="3779000" />
       <workItem from="1527394271282" duration="1307000" />
-      <workItem from="1527924617514" duration="4611000" />
+      <workItem from="1527924617514" duration="5234000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -275,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527936823929</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="InMemoryTokenStore to JdbcTokenStore">
+      <created>1527945999142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527945999142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11129000" />
+    <option name="totallyTimeSpent" value="11752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -355,7 +364,8 @@
     <MESSAGE value="UserAuthSession" />
     <MESSAGE value="skin controller fat model" />
     <MESSAGE value="add oauth2 to admin proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="add oauth2 to admin proj" />
+    <MESSAGE value="InMemoryTokenStore to JdbcTokenStore" />
+    <option name="LAST_COMMIT_MESSAGE" value="InMemoryTokenStore to JdbcTokenStore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

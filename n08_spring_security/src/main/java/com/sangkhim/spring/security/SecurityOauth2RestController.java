@@ -18,9 +18,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author Sangkhim
  * 
  * http://localhost:8080/springmvc/oauth/token?client_id=my-trusted-client&grant_type=password&username=admin&password=password
- * http://localhost:8080/springmvc/oauth/token?client_id=my-trusted-client&grant_type=refresh_token&refresh_token=
- * http://localhost:8080/springmvc/employee/list?access_token=
- * http://localhost:8080/springmvc/employee/htmllist?access_token=
+ * http://localhost:8080/springmvc/oauth/token?client_id=my-trusted-client&grant_type=refresh_token&refresh_token=???
+ * query: 
+ *   http://localhost:8080/springmvc/employee/list?access_token=???
+ * header: 
+ *   http://localhost:8080/springmvc/employee/list 
+ *   key: 	Authorization 
+ *   value:	Bearer ???
  *
  */
 
