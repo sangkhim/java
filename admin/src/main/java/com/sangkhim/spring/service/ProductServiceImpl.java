@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Base64Utils;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -19,6 +20,7 @@ import com.sangkhim.spring.base.message.ResponseMessageUtils;
 import com.sangkhim.spring.domain.Product;
 import com.sangkhim.spring.domain.ProductImage;
 import com.sangkhim.spring.mapper.ProductMapper;
+import com.sangkhim.spring.security.UserAuthSession;
 
 @Service
 public class ProductServiceImpl implements ProductService {
@@ -65,6 +67,11 @@ public class ProductServiceImpl implements ProductService {
 	}
 	
 	public ResponseMessage<List<Product>> products() {
+		User userAuth = UserAuthSession.getUserAuth();
+		if(userAuth != null) {
+			System.out.println(userAuth.toString());
+		}
+		
 		List<Product> productList = productMapper.getAll();
 		return ResponseMessageUtils.makeSuccessResponse(productList);
 	}
