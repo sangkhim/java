@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="a65d2f8f-c8ec-45ac-9759-2d9aed583400" name="not_commit" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/admin/bin/.gitignore" />
+    <list id="a65d2f8f-c8ec-45ac-9759-2d9aed583400" name="not_commit" comment="tmp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/n01_spring_mvc_basic/.classpath" afterPath="$PROJECT_DIR$/n01_spring_mvc_basic/.classpath" />
-      <change beforePath="$PROJECT_DIR$/n03_spring_mvc_free_marker/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/base/CorsFilter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/base/FileUploadUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/base/test/AbstractMapperTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/controller/contact/ContactController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/controller/contact/ContactRestController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/domain/contact/Contact.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/mapper/contact/ContactMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/service/contact/ContactService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/com/sangkhim/spring/service/contact/ContactServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/mapper/mssql/ContactMapper.xml" afterPath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/mapper/mssql/ContactMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/mapper/mysql/ContactMapper.xml" afterPath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/classes/mapper/mysql/ContactMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/target/test-classes/com/sangkhim/spring/mapper/ContactMapperTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n07_spring_data_nosql_mongodb/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n08_spring_security/.classpath" afterPath="$PROJECT_DIR$/n08_spring_security/.classpath" />
-      <change beforePath="$PROJECT_DIR$/n08_spring_security/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/n08_spring_security/.settings/org.eclipse.jdt.core.prefs" />
-      <change beforePath="$PROJECT_DIR$/n08_spring_security/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/n08_spring_security/.settings/org.eclipse.wst.common.component" />
-      <change beforePath="$PROJECT_DIR$/n08_spring_security/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/n08_spring_security/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/target/m2e-wtp/web-resources/.gitignore" afterPath="" />
     </list>
     <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/admin/src/main/java/com/sangkhim/spring/security/UserAuthSession.java" />
@@ -236,7 +210,7 @@
       <workItem from="1525493897623" duration="1432000" />
       <workItem from="1527329551955" duration="3779000" />
       <workItem from="1527394271282" duration="1307000" />
-      <workItem from="1527924617514" duration="174000" />
+      <workItem from="1527924617514" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -259,11 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527394549658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tmp">
+      <created>1527924802286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527924802286</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6692000" />
+    <option name="totallyTimeSpent" value="6722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -335,7 +316,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="update security project" />
-    <option name="LAST_COMMIT_MESSAGE" value="update security project" />
+    <MESSAGE value="tmp" />
+    <option name="LAST_COMMIT_MESSAGE" value="tmp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
