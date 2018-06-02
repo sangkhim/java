@@ -31,10 +31,6 @@ public interface ProductMapper {
 	
 	/**
 	 *  DataTables
-	 *  getList
-	 *  getListCount
-	 *  getSearchList
-	 *  getSearchListCount
 	 */
 	public List<Product> getList(Product product);
 	

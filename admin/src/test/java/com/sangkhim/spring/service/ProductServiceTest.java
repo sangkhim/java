@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.sangkhim.spring.base.message.ResponseMessage;
 import com.sangkhim.spring.base.test.AbstractTest;
 import com.sangkhim.spring.domain.Product;
 
@@ -21,7 +22,7 @@ public class ProductServiceTest extends AbstractTest {
 
 	@Test
 	public void getAll() {
-		List<Product> list = productService.getAll();
+		ResponseMessage<List<Product>> list = productService.products();
 		logger.debug("{}", list);
 		assertNotNull(list);
 	}

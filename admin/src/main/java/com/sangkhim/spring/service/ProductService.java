@@ -1,43 +1,30 @@
 package com.sangkhim.spring.service;
 
 import java.util.List;
+import java.util.Map;
 
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.sangkhim.spring.base.DataTable;
+import com.sangkhim.spring.base.message.ResponseMessage;
 import com.sangkhim.spring.domain.Product;
-import com.sangkhim.spring.domain.ProductImage;
 
 public interface ProductService {
 	
-	public List<Product> getAll();
+	public DataTable dt(@RequestParam Map<String, String> param);
 	
-	public Product getById(int productId);
+	public ResponseMessage<List<Product>> products();
 	
-	public int insert(Product product);
+	public ResponseMessage<Product> product(@PathVariable("productId") int productId);
 	
-	public int update(Product product);
-
-	public int updateIsOnline(int productId, int isOnline);
+	public ResponseMessage<String> insert(@ModelAttribute Product product);
 	
-	public int deleteById(int productId);
+	public ResponseMessage<String> update(@ModelAttribute Product product);
 	
-	public ProductImage getProductImageById(int productImageId);
+	public ResponseMessage<String> delete(@PathVariable("productId") int productId);
 	
-	public int insertProductImage(ProductImage productImage);
-	
-	public int deleteProductImage(int productImageId);
-	
-	/**
-	 *  DataTables
-	 *  getList
-	 *  getListCount
-	 *  getSearchList
-	 *  getSearchListCount
-	 */
-	public List<Product> getList(Product product);
-	
-	public Long getListCount(Product product);
-	
-	public List<Product> getSearchList(Product product);
-	
-	public Long getSearchListCount(Product product);
+	public ResponseMessage<String> updateIsOnline(@PathVariable("productId") int productId, @PathVariable("isOnline") int isOnline);
 	
 }
