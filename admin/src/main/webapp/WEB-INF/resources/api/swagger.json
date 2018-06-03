@@ -1,9 +1,9 @@
 {
 	"swagger": "2.0",
 	"info": {
+		"title": "Sangkhim POS",
 		"description": "",
 		"version": "1.0.0",
-		"title": "Sangkhim POS",
 		"contact": {
 			"email": "sangkhim@gmail.com"
 		}
@@ -38,9 +38,25 @@
 				"responses": {
 					"200": {
 						"description": "successful operation",
-						"schema": {
+						"type": "array",
+						"items": {
 							"$ref": "#/definitions/Product"
 						}
+					},
+					"400": {
+						"description": "Invalid ID supplied"
+					},
+					"401": {
+						"description": "Unauthenticated"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Product not found"
+					},
+					"500": {
+						"description": "Internal Server Error"
 					}
 				},
 				"security": [
@@ -90,6 +106,21 @@
 						"schema": {
 							"$ref": "#/definitions/Product"
 						}
+					},
+					"400": {
+						"description": "Invalid ID supplied"
+					},
+					"401": {
+						"description": "Unauthenticated"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Product not found"
+					},
+					"500": {
+						"description": "Internal Server Error"
 					}
 				},
 				"security": [
@@ -130,8 +161,17 @@
 					"400": {
 						"description": "Invalid ID supplied"
 					},
+					"401": {
+						"description": "Unauthenticated"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
 					"404": {
 						"description": "Product not found"
+					},
+					"500": {
+						"description": "Internal Server Error"
 					}
 				},
 				"security": [
@@ -183,6 +223,72 @@
 						"schema": {
 							"$ref": "#/definitions/Product"
 						}
+					},
+					"400": {
+						"description": "Invalid ID supplied"
+					},
+					"401": {
+						"description": "Unauthenticated"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Product not found"
+					},
+					"500": {
+						"description": "Internal Server Error"
+					}
+				},
+				"security": [
+					{
+						"Bearer": []
+					}
+				]
+			}
+		},
+		"/api/admin/public/delete-products/{productId}": {
+			"post": {
+				"tags": [
+					"product"
+				],
+				"summary": "Remove product by ID",
+				"description": "",
+				"operationId": "removeProductById",
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "productId",
+						"in": "path",
+						"description": "ID of product to return",
+						"required": true,
+						"type": "integer",
+						"format": "int64"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "successful operation",
+						"schema": {
+							"$ref": "#/definitions/Product"
+						}
+					},
+					"400": {
+						"description": "Invalid ID supplied"
+					},
+					"401": {
+						"description": "Unauthenticated"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Product not found"
+					},
+					"500": {
+						"description": "Internal Server Error"
 					}
 				},
 				"security": [
