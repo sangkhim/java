@@ -30,6 +30,9 @@ public class ProductImage {
 		this.src = src;
 	}
 	public String getSortOrder() {
+		if(sortOrder == null) {
+			return "0";
+		}
 		return sortOrder;
 	}
 	public void setSortOrder(String sortOrder) {
