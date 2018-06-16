@@ -1,4 +1,4 @@
-package com.sangkhim.spring.domain.contact;
+package com.sangkhim.spring.domain;
 
 import org.springframework.web.multipart.MultipartFile;
 
@@ -9,7 +9,7 @@ public class Contact {
 	String city;
 	String tel;
 	String email;
-	String email_md5;
+	String emailMd5;
 	MultipartFile file;
 	
 	public String getId() {
@@ -47,12 +47,12 @@ public class Contact {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}	
+	public String getEmailMd5() {
+		return emailMd5;
 	}
-	public String getEmail_md5() {
-		return email_md5;
-	}
-	public void setEmail_md5(String email_md5) {
-		this.email_md5 = email_md5;
+	public void setEmailMd5(String emailMd5) {
+		this.emailMd5 = emailMd5;
 	}
 	public MultipartFile getFile() {
 		return file;
@@ -63,9 +63,8 @@ public class Contact {
 	
 	@Override
 	public String toString() {
-		return "Contact [id=" + id + ", photo=" + photo + ", name=" + name
-				+ ", city=" + city + ", tel=" + tel + ", email=" + email
-				+ ", email_md5=" + email_md5 + ", file=" + file + "]";
+		return "Contact [id=" + id + ", photo=" + photo + ", name=" + name + ", city=" + city + ", tel=" + tel
+				+ ", email=" + email + ", emailMd5=" + emailMd5 + ", file=" + file + "]";
 	}
 		
 }

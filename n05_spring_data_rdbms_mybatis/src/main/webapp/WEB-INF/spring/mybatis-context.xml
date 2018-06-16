@@ -13,7 +13,7 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"/>
 		<property name="typeAliasesPackage" value="com.sangkhim.spring.domain"/>
-		<property name="mapperLocations" value="classpath*:mapper/mysql/*.xml"/>
+		<property name="mapperLocations" value="classpath*:mapper/**/**.xml"/>
 	</bean>
 	 
 	<!--  mapper class configuration -->

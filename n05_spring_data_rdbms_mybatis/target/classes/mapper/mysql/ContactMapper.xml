@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.sangkhim.spring.mapper.contacts.ContactMapper">
+<mapper namespace="com.sangkhim.spring.mapper.ContactMapper">	
 	
-	<select id="getAll" resultType="Contact">
+	<select id="getAll" resultMap="contact">
 		SELECT *
 		FROM contacts
 		WHERE is_active=1;
 	</select>
 
-	<select id="getById" resultType="Contact" parameterType="int">
+	<select id="getById" resultMap="contact" parameterType="int">
 		SELECT *
 		FROM contacts
 		WHERE is_active=1 AND id = #{id};
 	</select>
 
-	<insert id="insert" parameterType="Contact">
+	<insert id="insert">
 		INSERT INTO contacts(
 			<if test="photo != null and photo != ''">
 			photo,
@@ -37,7 +37,7 @@
 		);
 	</insert>
 
-	<update id="update" parameterType="Contact">
+	<update id="update">
 		UPDATE contacts SET
 			<if test="photo != null and photo != ''">
 			photo = #{photo},

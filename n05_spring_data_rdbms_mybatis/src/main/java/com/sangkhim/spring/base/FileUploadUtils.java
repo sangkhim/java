@@ -25,7 +25,7 @@ public class FileUploadUtils {
 	private static final String		ORIGINAL_FILENAME;
 	
 	static {
-		ROOT 					= System.getProperty("VITOU_HOME");
+		ROOT 					= System.getProperty("SANGKHIM_HOME");
 		PROJECT_NAME			= "n05_spring_data_rdbms_mybatis";
 		FOLDER_UPLOAD		 	= "upload";
 		ORIGINAL_FILENAME		= "original-filename";		

@@ -1,4 +1,4 @@
-package com.sangkhim.spring.controller.contact;
+package com.sangkhim.spring.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sangkhim.spring.domain.contact.Contact;
-import com.sangkhim.spring.mapper.contact.ContactMapper;
+import com.sangkhim.spring.domain.Contact;
+import com.sangkhim.spring.mapper.ContactMapper;
 
 @RestController
 public class ContactRestController {

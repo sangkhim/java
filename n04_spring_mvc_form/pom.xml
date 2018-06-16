@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
-		<org.springframework-version>4.1.6.RELEASE</org.springframework-version>
+		<org.springframework-version>5.0.6.RELEASE</org.springframework-version>
 		<com.fasterxml.jackson.core-version>2.5.3</com.fasterxml.jackson.core-version>
 	</properties>
 	<dependencies>

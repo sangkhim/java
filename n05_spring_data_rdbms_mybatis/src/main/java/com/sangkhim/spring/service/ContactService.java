@@ -1,10 +1,10 @@
-package com.sangkhim.spring.service.contact;
+package com.sangkhim.spring.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.sangkhim.spring.domain.contact.Contact;
+import com.sangkhim.spring.domain.Contact;
 
 @Service
 public interface ContactService {

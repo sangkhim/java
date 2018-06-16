@@ -9,9 +9,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.sangkhim.spring.mapper.contact.ContactMapper;
 import com.sangkhim.spring.base.test.AbstractMapperTest;
-import com.sangkhim.spring.domain.contact.Contact;
+import com.sangkhim.spring.domain.Contact;
+import com.sangkhim.spring.mapper.ContactMapper;
 
 public class ContactMapperTest extends AbstractMapperTest {
 	

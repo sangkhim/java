@@ -1,4 +1,4 @@
-package com.sangkhim.spring.controller.contact;
+package com.sangkhim.spring.controller;
 
 import java.security.Principal;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.sangkhim.spring.base.FileUploadUtils;
-import com.sangkhim.spring.domain.contact.Contact;
-import com.sangkhim.spring.service.contact.ContactService;
+import com.sangkhim.spring.domain.Contact;
+import com.sangkhim.spring.service.ContactService;
 
 @Controller
 public class ContactController {

@@ -1,10 +1,10 @@
-package com.sangkhim.spring.mapper.contact;
+package com.sangkhim.spring.mapper;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.sangkhim.spring.domain.contact.Contact;
+import com.sangkhim.spring.domain.Contact;
 
 @Repository
 public interface ContactMapper {
