@@ -1,4 +1,4 @@
-<#import "../spring.ftl" as spring />
+<#import "/spring.ftl" as spring />
 
 <div class="header clearfix">
   <nav>
