@@ -1,5 +1,10 @@
+<%@ page session="false" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+
 <div class="jumbotron">
-  <h1 class="display-3">Home Page</h1>
+  <h1 class="display-3">About Page</h1>
   <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
   <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
 </div>

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   
-  	<jsp:include page="../blocks/head.jsp"></jsp:include>
+  	<#include "../blocks/head.ftl">
   	
   </head>
 
@@ -10,11 +10,11 @@
 
     <div class="container">
     
-  	  <jsp:include page="../blocks/header.jsp"></jsp:include>      
+  	  <#include "../blocks/header.ftl">      
 
-      <jsp:include page="../views/${pageName}.jsp"></jsp:include>
+	  <#include "../views/" + pageName + ".ftl">      
 
-      <jsp:include page="../blocks/footer.jsp"></jsp:include>
+      <#include "../blocks/footer.ftl">
 
     </div> <!-- /container -->
 
