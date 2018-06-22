@@ -187,8 +187,6 @@
 	
 	<oauth:expression-handler id="oauthExpressionHandler" />
 	
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	
 	<!-- enable use-expressions -->
 	<http  
 		auto-config="true" 

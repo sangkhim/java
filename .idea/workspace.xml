@@ -9,7 +9,7 @@
     </list>
     <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n03_spring_mvc_free_marker/views/blocks/header.ftl" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/n03_spring_mvc_free_marker/views/blocks/header.ftl" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" afterPath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/context/spring_security.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -214,7 +214,7 @@
       <workItem from="1527996423739" duration="10086000" />
       <workItem from="1529167661129" duration="885000" />
       <workItem from="1529584448843" duration="53000" />
-      <workItem from="1529687741943" duration="950000" />
+      <workItem from="1529687741943" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -335,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529687904708</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="test">
+      <created>1529688701130</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1529688701130</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24791000" />
+    <option name="totallyTimeSpent" value="24925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
