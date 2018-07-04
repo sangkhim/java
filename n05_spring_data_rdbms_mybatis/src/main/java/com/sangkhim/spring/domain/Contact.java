@@ -3,6 +3,7 @@ package com.sangkhim.spring.domain;
 import org.springframework.web.multipart.MultipartFile;
 
 public class Contact {
+	
 	String id;
 	String photo;
 	String name;
@@ -10,6 +11,7 @@ public class Contact {
 	String tel;
 	String email;
 	String emailMd5;
+	
 	MultipartFile file;
 	
 	public String getId() {

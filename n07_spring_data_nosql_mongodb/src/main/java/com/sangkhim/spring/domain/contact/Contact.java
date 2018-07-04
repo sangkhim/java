@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "contact")
 public class Contact {
+	
 	String id;
 	@Indexed
 	String name;
