@@ -10,8 +10,8 @@ public abstract class ResponseMessageUtils {
 	 * @return ResponseMessage<T>
 	 */
 	public static<T> ResponseMessage<T> makeSuccessResponse(T body){
-		
 		ResponseMessage<T> response = new ResponseMessage<T>();
+		
 		ResponseHeader header = response.getHeader();
 		header.setResult(true);
 		header.setStatusCode(HttpStatus.OK.value());
@@ -21,8 +21,8 @@ public abstract class ResponseMessageUtils {
 		}
 		
 		response.setBody(body);
-		return response;
 		
+		return response;
 	}
 	
 	/**
@@ -31,10 +31,10 @@ public abstract class ResponseMessageUtils {
 	 * @return ResponseMessage<T>
 	 */
 	public static<T> ResponseMessage<T> makeFailureResponse(Exception ex){
-		
 		ResponseMessage<T> response = new ResponseMessage<T>();
-		ResponseHeader header = response.getHeader();
 		
+		ResponseHeader header = response.getHeader();
+		header.setResult(false);
 		header.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR.value());
 		Throwable cause = ex.getCause();
 		if (cause != null) {
@@ -44,10 +44,7 @@ public abstract class ResponseMessageUtils {
 			header.setErrorText(ex.getMessage());
 		}
 		
-		header.setResult(false);
-		
 		return response;
-		
 	}
 	
 	/**
@@ -57,16 +54,15 @@ public abstract class ResponseMessageUtils {
 	 * @return
 	 */
 	public static<T> ResponseMessage<T> makeResponse(boolean success, T body){
-		
 		ResponseMessage<T> response = new ResponseMessage<T>();
 		
 		ResponseHeader header = response.getHeader();
 		header.setResult(success);
 		header.setStatusCode(HttpStatus.OK.value());
+		
 		response.setBody(body);
 		
 		return response;
-		
 	}
 	
 	/**
@@ -77,7 +73,6 @@ public abstract class ResponseMessageUtils {
 	 * @return
 	 */
 	public static<T> ResponseMessage<T> makeResponse(boolean success, String errorText, int statusCode){
-		
 		ResponseMessage<T> response = new ResponseMessage<T>();
 		
 		ResponseHeader header = response.getHeader();
@@ -86,6 +81,5 @@ public abstract class ResponseMessageUtils {
 		header.setErrorText(errorText);
 		
 		return response;
-		
 	}
 }

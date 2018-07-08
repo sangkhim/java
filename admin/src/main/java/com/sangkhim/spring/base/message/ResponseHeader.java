@@ -22,7 +22,6 @@ public class ResponseHeader {
 		this.result = result;
 	}
 
-
 	/**
 	 * get error text
 	 * @return errorText
@@ -52,12 +51,5 @@ public class ResponseHeader {
 	public void setStatusCode(Integer statusCode) {
 		this.statusCode = statusCode;
 	}
-
-	@Override
-	public String toString() {
-		return "ResponseHeader [result=" + result + ", statusCode="
-				+ statusCode + ", errorText=" + errorText + "]";
-	}
-
 
 }

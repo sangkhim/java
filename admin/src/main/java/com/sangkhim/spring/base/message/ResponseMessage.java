@@ -39,10 +39,5 @@ public class ResponseMessage<T> {
 	public void setBody(T body) {
 		this.body = body;
 	}
-
-	@Override
-	public String toString() {
-		return "ResponseMessage [header=" + header + ", body=" + body + "]";
-	}
 	
 }

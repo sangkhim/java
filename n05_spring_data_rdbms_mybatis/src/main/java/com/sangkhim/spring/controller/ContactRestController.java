@@ -3,6 +3,7 @@ package com.sangkhim.spring.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,6 +33,11 @@ public class ContactRestController {
 
 	@RequestMapping(value = "/contacts", method = RequestMethod.POST)
 	public int insert(@RequestBody Contact contact) {
+		return contactMapper.insert(contact);
+	}
+	
+	@RequestMapping(value = "/contact-form-datas", method = RequestMethod.POST)
+	public int insertFormData(@ModelAttribute Contact contact) {
 		return contactMapper.insert(contact);
 	}
 
