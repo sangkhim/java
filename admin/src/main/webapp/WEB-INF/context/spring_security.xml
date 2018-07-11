@@ -3,23 +3,27 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns:oauth="http://www.springframework.org/schema/security/oauth2"
 	xmlns:security="http://www.springframework.org/schema/security"
-	xsi:schemaLocation="http://www.springframework.org/schema/security/oauth2 
-                    http://www.springframework.org/schema/security/spring-security-oauth2-2.0.xsd
+	xsi:schemaLocation="
                     http://www.springframework.org/schema/beans
                     http://www.springframework.org/schema/beans/spring-beans.xsd
                     http://www.springframework.org/schema/security
-                    http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+                    http://www.springframework.org/schema/security/spring-security-3.2.xsd
+                    http://www.springframework.org/schema/security/oauth2 
+                    http://www.springframework.org/schema/security/spring-security-oauth2.xsd">
 	
 	<!-- Protected resources -->
 	<http 
-		pattern="/api/admin/public/**" 
+		pattern="/api/public/**" 
 		create-session="never"
 		entry-point-ref="oauthAuthenticationEntryPoint"
 		access-decision-manager-ref="accessDecisionManager"
+		use-expressions="true"
 		xmlns="http://www.springframework.org/schema/security">
 					
-		<intercept-url pattern="/api/admin/public/**" access="ROLE_ADMIN" />
-		<anonymous enabled="false" />		
+		<anonymous enabled="false" />
+		
+		<intercept-url pattern="/api/public/**" access="ROLE_ADMIN" />
+		
 		<custom-filter ref="resourceServerFilter" before="PRE_AUTH_FILTER" />
 		<access-denied-handler ref="oauthAccessDeniedHandler" />
 		<expression-handler ref="oauthWebExpressionHandler" />
@@ -66,8 +70,9 @@
 		authentication-manager-ref="clientAuthenticationManager"
 		xmlns="http://www.springframework.org/schema/security">
 		
-		<intercept-url pattern="/oauth/token" access="IS_AUTHENTICATED_FULLY" />
 		<anonymous enabled="false" />
+		
+		<intercept-url pattern="/oauth/token" access="IS_AUTHENTICATED_FULLY" />		
 		<http-basic entry-point-ref="clientAuthenticationEntryPoint" />
 		<!-- include this only if you need to authenticate clients via request parameters -->
 		<custom-filter ref="clientCredentialsTokenEndpointFilter" after="BASIC_AUTH_FILTER" />

@@ -17,43 +17,43 @@ import com.sangkhim.spring.domain.Product;
 import com.sangkhim.spring.service.ProductService;
 
 @RestController
-@RequestMapping("/api/admin")
+@RequestMapping("/api")
 public class ProductRestController {
 	
 	@Autowired 
 	ProductService productService;
 	
-	@RequestMapping( value = "/products/dt", method = RequestMethod.GET )
+	@RequestMapping( value = "/admin/products/dt", method = RequestMethod.GET )
 	public DataTable dt(@RequestParam Map<String, String> param){		
 		return productService.dt(param);
 	}
 	
-	@RequestMapping(value = {"/public/products", "/products"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/public/products", "/admin/products"}, method = RequestMethod.GET)
 	public ResponseMessage<List<Product>> products() {
 		return productService.products();
 	}
 
-	@RequestMapping(value = {"/public/products/{productId}", "/products/{productId}"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/public/products/{productId}", "/admin/products/{productId}"}, method = RequestMethod.GET)
 	public ResponseMessage<Product> product(@PathVariable("productId") int productId) {
 		return productService.product(productId);
 	}
 	
-	@RequestMapping(value = {"/public/products", "/products"}, method = RequestMethod.POST)
+	@RequestMapping(value = {"/public/products", "/admin/products"}, method = RequestMethod.POST)
 	public ResponseMessage<String> insert(@ModelAttribute Product product) {
 		return productService.insert(product);
 	}	
 
-	@RequestMapping(value = {"/public/update-products", "/update-products"}, method = RequestMethod.POST)
+	@RequestMapping(value = {"/public/update-products", "/admin/update-products"}, method = RequestMethod.POST)
 	public ResponseMessage<String> update(@ModelAttribute Product product) {
 		return productService.update(product);
 	}	
 	
-	@RequestMapping(value = {"/public/delete-products/{productId}", "/delete-products/{productId}"}, method = RequestMethod.POST)
+	@RequestMapping(value = {"/public/delete-products/{productId}", "/admin/delete-products/{productId}"}, method = RequestMethod.POST)
 	public ResponseMessage<String> delete(@PathVariable("productId") int productId) {
 		return productService.delete(productId);
 	}
 	
-	@RequestMapping(value = {"/public/products/{productId}/onlines/{isOnline}", "/products/{productId}/onlines/{isOnline}"}, method = RequestMethod.POST)
+	@RequestMapping(value = {"/public/products/{productId}/onlines/{isOnline}", "/admin/products/{productId}/onlines/{isOnline}"}, method = RequestMethod.POST)
 	public ResponseMessage<String> updateIsOnline(@PathVariable("productId") int productId, @PathVariable("isOnline") int isOnline) {
 		return productService.updateIsOnline(productId, isOnline);
 	}

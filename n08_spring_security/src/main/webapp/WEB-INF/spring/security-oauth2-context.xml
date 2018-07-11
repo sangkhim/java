@@ -3,12 +3,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns:oauth="http://www.springframework.org/schema/security/oauth2"
 	xmlns:security="http://www.springframework.org/schema/security"
-	xsi:schemaLocation="http://www.springframework.org/schema/security/oauth2 
-                    http://www.springframework.org/schema/security/spring-security-oauth2-2.0.xsd
+	xsi:schemaLocation="
                     http://www.springframework.org/schema/beans
                     http://www.springframework.org/schema/beans/spring-beans.xsd
                     http://www.springframework.org/schema/security
-                    http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+                    http://www.springframework.org/schema/security/spring-security-3.2.xsd
+                    http://www.springframework.org/schema/security/oauth2 
+                    http://www.springframework.org/schema/security/spring-security-oauth2.xsd">
 
 	<!-- Protected resources -->
 	<http 
@@ -16,10 +17,13 @@
 		create-session="never"
 		entry-point-ref="oauthAuthenticationEntryPoint"
 		access-decision-manager-ref="accessDecisionManager"
+		use-expressions="true"
 		xmlns="http://www.springframework.org/schema/security">
+		
+		<anonymous enabled="false" />
 					
-		<intercept-url pattern="/employee/**" access="ROLE_ADMIN" />
-		<anonymous enabled="false" />		
+		<intercept-url pattern="/employee/**" access="ROLE_ADMIN" />	
+			
 		<custom-filter ref="resourceServerFilter" before="PRE_AUTH_FILTER" />
 		<access-denied-handler ref="oauthAccessDeniedHandler" />
 		<expression-handler ref="oauthWebExpressionHandler" />
@@ -66,8 +70,10 @@
 		authentication-manager-ref="clientAuthenticationManager"
 		xmlns="http://www.springframework.org/schema/security">
 		
-		<intercept-url pattern="/oauth/token" access="IS_AUTHENTICATED_FULLY" />
 		<anonymous enabled="false" />
+		
+		<intercept-url pattern="/oauth/token" access="IS_AUTHENTICATED_FULLY" />
+		
 		<http-basic entry-point-ref="clientAuthenticationEntryPoint" />
 		<!-- include this only if you need to authenticate clients via request parameters -->
 		<custom-filter ref="clientCredentialsTokenEndpointFilter" after="BASIC_AUTH_FILTER" />
@@ -162,18 +168,6 @@
 		
 	</authentication-manager>
 	
-	<authentication-manager 
-		alias="authenticationManager"
-		xmlns="http://www.springframework.org/schema/security">
-		
-		<authentication-provider>
-			<user-service id="userDetailsService">
-				<user name="admin" password="password" authorities="ROLE_ADMIN" />
-			</user-service>
-		</authentication-provider>
-		
-	</authentication-manager>
-	
 	<!-- File based client details access -->
 	<oauth:client-details-service 
 		id="clientDetails">
@@ -198,5 +192,18 @@
     </global-method-security>
 	
 	<oauth:expression-handler id="oauthExpressionHandler" />
+	
+	<!-- Select users and user_roles from XML -->
+	<authentication-manager 
+		alias="authenticationManager"
+		xmlns="http://www.springframework.org/schema/security">
+		
+		<authentication-provider>
+			<user-service id="userDetailsService">
+				<user name="admin" password="123456" authorities="ROLE_ADMIN" />
+			</user-service>
+		</authentication-provider>
+		
+	</authentication-manager>
 
 </beans>
