@@ -11,44 +11,44 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sangkhim.spring.domain.Contact;
-import com.sangkhim.spring.mapper.ContactMapper;
+import com.sangkhim.spring.service.ContactService;
 
 @RestController
 public class ContactRestController {
 
 	@Autowired
-	private ContactMapper contactMapper;
+	private ContactService contactService;
 
 	@RequestMapping(value = "/contacts", method = RequestMethod.GET)
 	public List<Contact> contacts() {
-		List<Contact> contactList = contactMapper.getAll();
+		List<Contact> contactList = contactService.getAll();
 		return contactList;
 	}
 
 	@RequestMapping(value = "/contacts/{contactId}", method = RequestMethod.GET)
 	public Contact contact(@PathVariable int contactId) {
-		Contact contact = contactMapper.getById(contactId);
+		Contact contact = contactService.getById(contactId);
 		return contact;
 	}
 
 	@RequestMapping(value = "/contacts", method = RequestMethod.POST)
 	public int insert(@RequestBody Contact contact) {
-		return contactMapper.insert(contact);
+		return contactService.insert(contact);
 	}
 	
 	@RequestMapping(value = "/contact-form-datas", method = RequestMethod.POST)
 	public int insertFormData(@ModelAttribute Contact contact) {
-		return contactMapper.insert(contact);
+		return contactService.insert(contact);
 	}
 
 	@RequestMapping(value = "/contacts", method = RequestMethod.PUT)
 	public int update(@RequestBody Contact contact) {
-		return contactMapper.update(contact);
+		return contactService.update(contact);
 	}
 
 	@RequestMapping(value = "/contacts/{contactId}", method = RequestMethod.DELETE)
 	public int delete(@PathVariable int contactId) {
-		return contactMapper.deleteById(contactId);
+		return contactService.deleteById(contactId);
 	}
 
 }
