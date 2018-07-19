@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sangkhim.spring.domain.Contact;
@@ -50,5 +51,38 @@ public class ContactRestController {
 	public int delete(@PathVariable int contactId) {
 		return contactService.deleteById(contactId);
 	}
+	
+    @RequestMapping(value = "/test-request-param")
+    public int testRequestParam(@RequestParam("a") int a, @RequestParam("b") int b) {
+        int c = a + b;
+        int d = sum(a, b);
+        return c * d;
+    }
+
+    @RequestMapping(value = "/test-path-variable/{a}/{b}")
+    public int testPathVariable(@PathVariable("a") int a, @PathVariable("b") int b) {
+        int c = a + b;
+        int d = sum(a, b);
+        return c * d;
+    }
+
+    @RequestMapping(value = "/test-request-param-by-post", method = RequestMethod.POST)
+    public String testRequestParamByPost(@RequestParam("name") String name, @RequestParam("city") String city) {
+        return name + " " + city;
+    }
+
+    @RequestMapping(value = "/test-model-attr", method = RequestMethod.POST)
+    public String testModelAttribute(@ModelAttribute("contact") Contact contact) {
+        return contact.getName() + " " + contact.getCity();
+    }
+
+    @RequestMapping(value = "/test-request-body", method = RequestMethod.POST)
+    public String testRequestBody(@RequestBody Contact contact) {
+        return contact.getName() + " " + contact.getCity();
+    }
+
+    public int sum(int a, int b) {
+        return a + b;
+    }
 
 }
