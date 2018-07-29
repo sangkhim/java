@@ -39,6 +39,6 @@ Spring AOP
 Testing
 
 ### Bonus:
-Admin Portal
+Admin Portal (https://goo.gl/kRMUSP)
 
 
