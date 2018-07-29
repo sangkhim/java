@@ -54,16 +54,16 @@ public class ContactRestController {
 	
     @RequestMapping(value = "/test-request-param")
     public int testRequestParam(@RequestParam("a") int a, @RequestParam("b") int b) {
-        int c = a + b;
-        int d = sum(a, b);
-        return c * d;
+        int total1 = a + b;
+        int total2 = sum(a, b);
+        return total1 * total2;
     }
 
     @RequestMapping(value = "/test-path-variable/{a}/{b}")
     public int testPathVariable(@PathVariable("a") int a, @PathVariable("b") int b) {
-        int c = a + b;
-        int d = sum(a, b);
-        return c * d;
+        int total1 = a + b;
+        int total2 = sum(a, b);
+        return total1 * total2;
     }
 
     @RequestMapping(value = "/test-request-param-by-post", method = RequestMethod.POST)
@@ -81,7 +81,7 @@ public class ContactRestController {
         return contact.getName() + " " + contact.getCity();
     }
 
-    public int sum(int a, int b) {
+    private int sum(int a, int b) {
         return a + b;
     }
 
