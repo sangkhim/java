@@ -1,4 +1,4 @@
-# Srping Framework Tutorial
+# Spring Framework Tutorial
 
 ### Prerequisite:
 JDK 1.7
