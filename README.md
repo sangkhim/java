@@ -1,44 +1,44 @@
 # Srping Framework Tutorial
 
-### Prerequisite
+### Prerequisite:
 JDK 1.7
 <br />
 Tomcat 7
 
-### Chapter 01
+### Chapter 01:
 Spring MVC, view using JSP
 
-### Chapter 02
+### Chapter 02:
 Spring MVC, view using Apache Tiles
 
-### Chapter 03
+### Chapter 03:
 Spring MVC, view using FreeMarker
 
-### Chapter 04
-Working with Form, Validation
+### Chapter 04:
+Working with Form, Validation, Localization
 
-### Chapter 05
+### Chapter 05:
 Working with Database using MyBatis
 
-### Chapter 06
+### Chapter 06:
 Working with Database using Hibernate
 
-### Chapter 07
+### Chapter 07:
 Working with Database using MongoDB
 
-### Chapter 08
+### Chapter 08:
 Spring Security, oAuth2
 
-### Chapter 08
+### Chapter 09:
 Spring Batch
 
-### Chapter 09
+### Chapter 10:
 Spring AOP
 
-### Chapter 10
+### Chapter 11:
 Testing
 
-### Bonus
+### Bonus:
 Admin Portal
 
 
