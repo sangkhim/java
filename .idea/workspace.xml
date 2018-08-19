@@ -1,100 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="eclipse to IJ">
-      <change afterPath="$PROJECT_DIR$/n04_spring_mvc_form/spring_mvc_form.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SANGKHIM_HOME/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n05_spring_data_rdbms_mybatis/upload/390ed0e0-9726-4085-a79d-75c87d126224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n05_spring_data_rdbms_mybatis/upload/71d506c1-6fea-469c-beb1-9b5a4febc8c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n05_spring_data_rdbms_mybatis/upload/913cb356-e6b8-47c9-bdf8-720753ab53f7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n05_spring_data_rdbms_mybatis/upload/99820e58-e715-4d79-906c-6fa330d92542.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n05_spring_data_rdbms_mybatis/upload/c680f107-37da-4b50-ae73-b6717390691c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SANGKHIM_HOME/n05_spring_data_rdbms_mybatis/upload/d69a125f-dd72-4b25-a369-256d797ec187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n01_spring_mvc_basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/n01_spring_mvc_basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/n04_spring_mvc_form/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/n04_spring_mvc_form/target/classes/com/sangkhim/spring/form/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/n05_spring_data_rdbms_mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/com/journaldev/spring/PersonController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/com/journaldev/spring/dao/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/com/journaldev/spring/dao/PersonDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/com/journaldev/spring/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/com/journaldev/spring/service/PersonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/com/journaldev/spring/service/PersonServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/maven/com.journaldev.spring/SpringMVCHibernate/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/maven/com.journaldev.spring/SpringMVCHibernate/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/maven/com.journaldev.spring/spring_data_rdbms_hibernate/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/maven/com.journaldev.spring/spring_data_rdbms_hibernate/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/maven/com.journaldev.spring/spring_hi/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n06_spring_data_rdbms_hibernate/target/m2e-wtp/web-resources/META-INF/maven/com.journaldev.spring/spring_hi/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n07_spring_data_nosql_mongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/n07_spring_data_nosql_mongodb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/.springBeans" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/n09_spring_batch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/target/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n09_spring_batch/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/n10_spring_intercepter_aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/target/classes/com/sangkhim/spring/aop/MyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n10_spring_intercepter_aop/target/classes/com/sangkhim/spring/aop/MyInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.ltk.core.refactoring.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/.settings/org.eclipse.wst.ws.service.policy.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n11_selenium/target/test-classes/browser_drivers/chrome_driver_2.19.exe" beforeDir="false" />
-    </list>
+    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="eclipse to IJ" />
     <list id="a65d2f8f-c8ec-45ac-9759-2d9aed583400" name="not_commit" comment="tmp" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +13,7 @@
     <session id="-1188061834">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -124,26 +31,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/n07_spring_data_nosql_mongodb/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="9" column="81" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -317,7 +205,7 @@
       <workItem from="1532874332811" duration="285000" />
       <workItem from="1532874620809" duration="2645000" />
       <workItem from="1534581731184" duration="228000" />
-      <workItem from="1534586261751" duration="370000" />
+      <workItem from="1534586261751" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -589,7 +477,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35971000" />
+    <option name="totallyTimeSpent" value="36143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,7 +490,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21658097" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -831,17 +718,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/n07_spring_data_nosql_mongodb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n07_spring_data_nosql_mongodb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="81" />
         </state>
       </provider>
     </entry>

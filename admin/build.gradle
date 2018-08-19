@@ -13,7 +13,7 @@ repositories {
 
 ext{
 	jdkVersion = '1.8'
-	springVersion = '5.0.6.RELEASE'
+	springVersion = '4.3.18.RELEASE'
 	springSecurityVersion = '3.2.10.RELEASE'
 	thymeleafVersion = '2.1.3.RELEASE'
 	logbackVersion = '1.1.3'
@@ -44,7 +44,7 @@ dependencies {
 	compile group: 'mysql', name: 'mysql-connector-java', version: mysqlConnectorVersion
 	
 	// Spring Security
-	compile group: 'org.springframework.security', name: 'mybatis-spring', version: springSecurityVersion
+	compile group: 'org.springframework.security', name: 'spring-security-web', version: springSecurityVersion
 	compile group: 'org.springframework.security', name: 'spring-security-config', version: springSecurityVersion
 	compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: springSecurityVersion
 	compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity4', version: '3.0.2.RELEASE'
