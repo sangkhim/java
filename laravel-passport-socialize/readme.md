@@ -39,9 +39,11 @@ Enable CORS
 
 Install swagger
 
-    php composer require "darkaonline/l5-swagger:5.6.*"
+    composer require "darkaonline/l5-swagger:5.6.*"
     php artisan l5-swagger:generate
-    set L5_SWAGGER_GENERATE_ALWAYS to true in your .env file for auto-generated
+    
+    .env
+    L5_SWAGGER_GENERATE_ALWAYS=true
 
 Install voyager (scaffolding admin)
 
@@ -59,7 +61,7 @@ MySQL <= 5.6 problem
     }
 
 
-### Reference:
+### References:
 
 - [Laravel Official Documentation](https://laravel.com/docs)
 - [Getting started with Laravel Passport](https://scotch.io/@neo/getting-started-with-laravel-passport)
