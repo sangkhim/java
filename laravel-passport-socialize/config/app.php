@@ -163,6 +163,7 @@ return [
         /*
          * Sangkhim
          */
+        Collective\Html\HtmlServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
         L5Swagger\L5SwaggerServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,

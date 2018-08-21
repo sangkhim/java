@@ -8,16 +8,27 @@ Run project
 
     php artisan serve
     
-Create migration script
+### Create migration script
 
     php artisan make:migration create_products_table --create=products
     php artisan make:migration add_product_image_to_products_table --table=products
+    
+### Install form collective
 
-Scaffolding auth
+    composer require "laravelcollective/html":"^5.4.0"  
+    
+config/app.php
+    
+    'providers' => [
+        ...
+        Laravel\Passport\PassportServiceProvider::class,
+    ],      
+
+### Scaffolding auth
 
     php artisan make:auth
     
-Link storage to public folder
+### Link storage to public folder
 
     php artisan storage:link
     
@@ -32,6 +43,12 @@ config/app.php
     'providers' => [
         ...
         Laravel\Passport\PassportServiceProvider::class,
+    ],
+    ...
+    'aliases' => [
+        ...
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
     ],
     
 User.php
@@ -64,7 +81,7 @@ Enable CORS
 
     php artisan make:middleware Cors
     
-Kernel.php
+Http/Kernel.php
 
     protected $middleware = [
         ...
@@ -127,12 +144,12 @@ config/services.php
     GOOGLE_SECRET=O7ej19VroDleLLVWja7DTMP5
     GOOGLE_URL=http://localhost:8000/auth/google/callback
     
-web.php
+routes/web.php
     
     Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
     Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
     
-api.php
+routes/api.php
 
     Route::post('users/login', 'UserRestController@loginUser');    
 
@@ -150,10 +167,10 @@ AppServiceProvider.php
         Schema::defaultStringLength(191);
     }
 
-
 ### References:
 
 - [Laravel Official Documentation](https://laravel.com/docs)
+- [Laravel Collective](https://laravelcollective.com/docs/5.4/html#)
 - [Getting started with Laravel Passport](https://scotch.io/@neo/getting-started-with-laravel-passport)
 - [DarkaOnLine/L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger)
 - [Laravel Social Authentication with Socialite](https://scotch.io/tutorials/laravel-social-authentication-with-socialite)
