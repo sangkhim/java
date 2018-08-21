@@ -127,10 +127,14 @@ config/services.php
     GOOGLE_SECRET=O7ej19VroDleLLVWja7DTMP5
     GOOGLE_URL=http://localhost:8000/auth/google/callback
     
-app/Http/routes.php
+web.php
     
     Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
     Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
+    
+api.php
+
+    Route::post('users/login', 'UserRestController@loginUser');    
 
 ### Install voyager (scaffolding admin)
 
