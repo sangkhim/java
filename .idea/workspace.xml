@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="eclipse to IJ" />
+    <list default="true" id="3e23a7f4-fac1-451e-a52f-58fe5a2557c9" name="Default" comment="add ionic_codegen&#10;add docker">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="a65d2f8f-c8ec-45ac-9759-2d9aed583400" name="not_commit" comment="tmp" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,13 +11,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/laravel-passport-socialize/composer.json</pharConfigPath>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1188061834">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,12 +81,111 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/client_codegen/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ionic_codegen/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/client_codegen/package.json" />
+      <path value="$PROJECT_DIR$/ionic_codegen/package.json" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/package.json" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/swagger-api/swagger-ui/package.json" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/swagger-api/swagger-ui/swagger-ui-dist-package/package.json" />
     </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/composer" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/league/event" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/swagger-api/swagger-ui" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/darkaonline/l5-swagger" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/laravel-passport-socialize/vendor/theseer/tokenizer" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -94,8 +199,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +210,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,7 +219,7 @@
     <property name="SearchEverywhereHistoryKey" value="readme&#9;FILE&#9;file://C:/sangkhim/java/ionic/resources/README.md&#10;swagger.&#9;FILE&#9;file://C:/sangkhim/java/admin/src/main/webapp/WEB-INF/resources/api/swagger.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -206,6 +311,7 @@
       <workItem from="1532874620809" duration="2645000" />
       <workItem from="1534581731184" duration="228000" />
       <workItem from="1534586261751" duration="542000" />
+      <workItem from="1535104024566" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1527330916685</created>
@@ -473,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534581799828</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add ionic_codegen&#10;add docker">
+      <created>1535104226604</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1535104226604</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36143000" />
+    <option name="totallyTimeSpent" value="36354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +604,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21658097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21915168" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,7 +620,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4974293" weight="0.32972974" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50771207" side_tool="true" weight="0.42297298" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4922879" visible="true" weight="0.4218329" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4922879" visible="true" weight="0.61455524" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293011" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -585,7 +698,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update security project" />
     <MESSAGE value="tmp" />
     <MESSAGE value="UserAuthSession" />
     <MESSAGE value="skin controller fat model" />
@@ -610,7 +722,8 @@
     <MESSAGE value="delete package-lock" />
     <MESSAGE value="update readme" />
     <MESSAGE value="eclipse to IJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="eclipse to IJ" />
+    <MESSAGE value="add ionic_codegen&#10;add docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ionic_codegen&#10;add docker" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/n03_spring_mvc_free_marker/target/m2e-wtp/web-resources/META-INF/maven/com.sangkhim.spring/spring_mvc_free_marker/pom.properties" />

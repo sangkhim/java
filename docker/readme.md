@@ -33,6 +33,10 @@ Push Docker image to the cloud repo
     docker tag my-first-docker-image sangkhim/my-first-docker-image
     docker push sangkhim/my-first-docker-image
     
+Checkout Docker image from the cloud repo
+
+    docker pull sangkhim/my-first-docker-image    
+    
 List Docker containers
 
     docker container ls
